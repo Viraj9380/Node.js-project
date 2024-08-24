@@ -5,7 +5,6 @@ This is a resilient email sending service implemented in JavaScript. It uses two
 
 ### Features
 - **Retry Mechanism**: Retries sending the email with exponential backoff in case of failures.
-- **Fallback Mechanism**: Switches to the next provider if the current one fails.
 - **Idempotency**: Prevents duplicate sends of the same email.
 - **Rate Limiting**: Limits the number of emails sent per minute.
 - **Status Tracking**: Tracks the status of each email send attempt.
